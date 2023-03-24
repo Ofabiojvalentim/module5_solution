@@ -8,11 +8,11 @@ SignupController.$inject = ['MenuService','$timeout'];
 function SignupController(MenuService,$timeout) {
   var $ctrl = this;
 
-  $ctrl.firstname = 'FABIO';
-  $ctrl.lastname = 'VALENTIM';
-  $ctrl.short_name = 'SP1';
-  $ctrl.email = 'test@teste.com';
-  $ctrl.phone = '1234-1234';
+  $ctrl.firstname = '';
+  $ctrl.lastname = '';
+  $ctrl.short_name = '';
+  $ctrl.email = '';
+  $ctrl.phone = '';
 
   $ctrl.errorMsg = '';
   $ctrl.successMsg = '';
